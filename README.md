@@ -1,5 +1,4 @@
 # KitchinFlow
-![logo do app](https://github.com/IzequielAlves/KitchinFlow/blob/Develop/Assets/Color%20Icon%20NoBG.png)
 
 # KitchinFlow 🍕
 
