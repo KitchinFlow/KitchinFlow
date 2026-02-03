@@ -27,7 +27,6 @@ O projeto utiliza um stack moderno e híbrido para garantir performance e facili
 
 * **Desktop:** [.NET](https://dotnet.microsoft.com/) com **WPF (Windows Presentation Foundation)** para uma interface rica e responsiva.
 * **Banco de Dados:** [SQLite](https://www.sqlite.org/) (leve e sem necessidade de servidor externo).
-* **Automação & Inteligência:** [Python](https://www.python.org/) e [N8N](https://n8n.io/) para a orquestração de fluxos e chatbots.
 
 ## 🔧 Como Executar (Fase de Desenvolvimento)
 
@@ -39,9 +38,7 @@ Atualmente, o projeto está em fase de MVP e requer uma configuração manual si
     ```
 
 2.  **Configuração do Banco de Dados:**
-    * Localize o arquivo do banco de dados (`database.db`). (encontra-se por padrão na pasta Data).
-    * Copie o arquivo para a pasta de saída do compilador: `.../bin/Debug/net10.0-windows/` (ou a versão do .NET que estiver usando).
-    * **Importante:** O banco deve estar no mesmo diretório que o executável (`KitchinFlow.exe`), pois o sistema está configurado para realizar a conexão relativa automaticamente.
+    * Por hora, a API responsável pelo banco de dados está com um caminho fixo para a pasta da minha máquina no desenvolvimento. Altere o caminho caso queira testar.
 
 3.  **Execução:**
     * Abra a solução no Visual Studio e pressione `F5` ou utilize o comando:
