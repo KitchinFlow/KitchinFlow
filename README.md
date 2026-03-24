@@ -76,3 +76,9 @@ Licença em aberto (a definir futuramente).
 ## 📌 Nome
 
 **KitchinFlow**
+
+---
+
+## 📌 Desenvolvido por
+
+**Izequiel Alves [https://https://github.com/IzequielAlves]**
