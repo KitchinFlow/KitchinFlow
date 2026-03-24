@@ -81,4 +81,4 @@ Licença em aberto (a definir futuramente).
 
 ## 📌 Desenvolvido por
 
-**Izequiel Alves [https://https://github.com/IzequielAlves]**
+**[Izequiel Alves](https://github.com/IzequielAlves)**
