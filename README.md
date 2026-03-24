@@ -1,60 +1,78 @@
-# KitchinFlow 🍕
+# KitchinFlow
 
-> **Status do Projeto:** 🛠️ MVP em desenvolvimento:
-> <a href="https://github.com/KitchinFlow"> Repositório Público Atual (apenas intaladores) </a>
+Sistema de automação comercial voltado para pequenos e médios estabelecimentos do ramo alimentício, como pizzarias, bares e restaurantes que ainda não emitem nota fiscal.  
+O KitchinFlow foi desenvolvido para simplificar o atendimento, otimizar processos internos e oferecer uma experiência moderna tanto para clientes quanto para funcionários.
 
-O **KitchinFlow** é uma solução administrativa integrada projetada especificamente para o setor alimentício, atendendo desde pizzarias e restaurantes até sorveterias. O objetivo é centralizar a gestão do negócio e automatizar o atendimento ao cliente de forma personalizável. 
+---
 
-## 🚀 Sobre a Solução
+## ✨ Funcionalidades
 
-O diferencial do KitchinFlow será a união de uma interface robusta, mas de simples operação para o usuário gerenciador com o auxílio de ChatBots e menu online para o consumidor final.
+- **Gestão de vendas** com comandas e mesas  
+- **Gestão de funcionários** (entregadores, caixas, administradores, cozinheiros)  
+- **Gestão de produtos** com customizações (sabores, bordas, extras como queijo adicional)  
+- **Relatórios** de vendas e cadastros  
+- **Impressão de comandas** em bobina  
+- **Gestão de delivery** com taxa de entrega e endereço do cliente  
+- **Totem de autoatendimento** integrado  
+- **Conexão multi-dispositivo**: celulares, TVs, tablets, notebooks, etc.  
 
-* **(Projeto B2B)**
-* **Gestão Administrativa:** Controle total de pedidos, estoque e fluxo de caixa em uma única tela.
-* **Automação de Atendimento:** Integração com chatbots de whathsapp para agilizar pedidos e suporte.
-* **Flexibilidade:** Adaptável para diferentes nichos do ramo alimentício.
+---
 
-## 🔧 Pré-requisitos do software (Mínimos)
-- Sistema operacional ```Windows 10 64-bits``` ou superior;
-- .NET 10.0 Desktop Runtime;
-- Processador ```2 Núcleos, 2 Threads ```;
-- 4GB Memória RAM;
-- 1GB de armazenamento disponível em SSD;
-<br><br>Os pré-requisitos devem ser atendidos para um bom funcionamento do sistema, mas basicamente qualquer máquina atualmente (salvo raras exceções), cumprem os pré-requisitos listados até com alguma sobra.
+## 🚀 Pontos Fortes
 
-## 🛠️ Tecnologias Utilizadas
+- Interface simples e rápida  
+- Servidor local instalável, sem necessidade de infraestrutura complexa  
+- Experiência facilitada para o usuário final  
+- Suporte a múltiplos dispositivos conectados simultaneamente  
+- Impressão otimizada para bobinas de comanda  
 
-O projeto utilizará de um stack híbrido para garantir performance e facilidade na automação:
+---
 
-* **Desktop:** [.NET](https://dotnet.microsoft.com/) com **WPF (Windows Presentation Foundation)** para uma interface rica e responsiva.
-* **Banco de Dados:** [SQLite](https://www.sqlite.org/) (leve e sem necessidade de servidor externo), mas com API ASP.NET integrada para permitir o uso em mais de uma máquina. 
-* **Comandas em qualquer lugar:** Sistema da API gera endpoints com páginas web para que o usuário consiga acessar de qualquer dispositivo com acesso à rede local em que o sistema está inserido, afim de visualizar (e criar), comandas do estabelecimento.
-* **Cardápio digital:** Futuramente, a solução contará com site para Cardápio digital do cliente.
+## 🛠️ Tecnologias
 
-## 🔧 Como Executar (Fase de Desenvolvimento)
+- **C# / .NET**  
+- **ASP.NET** para API local  
+- **Dapper** para acesso a dados  
+- **SQL Server Express** e **SQLite** para bancos locais  
 
-Atualmente, o projeto está em fase de MVP e requer uma configuração manual simples para o banco de dados:
+---
 
-1.  **Clone o repositório:**
-    ```bash
-    git clone https://github.com/KitchinFlow/KitchinFlow/MVP/V1.git
-    ```
+## 🎯 Público-Alvo
 
-2.  **Configuração de inicialização:**
-    * Crie um perfil de inicialização que abranja as duas soluções do sistema (app desktop e API REST);
+- Pequenos e médios estabelecimentos alimentícios  
+- Restaurantes, pizzarias, bares e lanchonetes que não emitem nota fiscal  
 
-3.  **Execução:**
-    * Abra a solução no Visual Studio e pressione `F5` ou utilize o comando:
-    ```bash
-    dotnet run
-    ```
+---
 
-## 🛤️ Roadmap (MVP)
+## 📈 Roadmap (Ideias Futuras)
 
-- [x] Estrutura base da interface WPF.
-- [x] Modelagem inicial do banco de dados SQLite.
-- [ ] Implementação do módulo de PDV (Ponto de Venda).
-- [ ] Dashboards de fechamento diário.
-<br><br>
+- Integrações com meios de pagamento (QR Code Pix dinâmico)  
+- Relatórios avançados de vendas e desempenho  
+- Integração com **iFood** e outras plataformas de delivery  
 
-Desenvolvido por [IzequielAlves](https://github.com/IzequielAlves), [KitchinFlow](https://github.com/KitchinFlow)
+---
+
+## ⚙️ Instalação
+
+A instalação é feita através de um **único arquivo executável**, que permite selecionar pacotes e dependências necessárias.  
+Pensada para ser simples e rápida, sem necessidade de configurações complexas.
+
+---
+
+## 📢 Suporte
+
+- O próprio aplicativo notificará sobre **atualizações**  
+- **Suporte humanizado via WhatsApp**  
+- Documentação completa para o usuário: manuais, helpers e vídeo-aulas  
+
+---
+
+## 📜 Licença
+
+Licença em aberto (a definir futuramente).
+
+---
+
+## 📌 Nome
+
+**KitchinFlow**
